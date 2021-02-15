@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Join from "./components/Join";
 import Chat from "./components/Chat";
@@ -6,7 +6,7 @@ import Chat from "./components/Chat";
 const App = () => {
   return (
     <Router>
-      <Route path="/" exact componet={Join}></Route>
+      <Route path="/" exact component={Join}></Route>
       <Route path="/chat" component={Chat} />
     </Router>
   );
